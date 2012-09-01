@@ -18,7 +18,6 @@
        {:point1 point1, :point2 point2, :point3 point3
         :__class_symbol__ 'Triangle}))
 
-
 (def right-triangle (Triangle (Point 0 0)
                               (Point 0 1)
                               (Point 1 0)))
