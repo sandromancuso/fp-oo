@@ -13,6 +13,8 @@
        (Point (+ (:x this) xinc)
               (+ (:y this) yinc))))
 
+(def class :__class_symbol__)
+
 (def Triangle
      (fn [point1 point2 point3]
        {:point1 point1, :point2 point2, :point3 point3
